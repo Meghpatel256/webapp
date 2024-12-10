@@ -1,0 +1,44 @@
+
+
+
+
+
+
+.header
+{
+    background-color: aqua;
+    height: 80px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.main
+{
+    border: 1px solid red;
+    height: 400px;
+.left
+    {
+    //   height: 100%;
+    @include megh;
+      width: 40%;
+      background-color: blue;  
+      float: left;
+    }
+.right{
+        // height: 100%;
+        @include megh;
+        width: 100%;
+        background-color: blueviolet;
+        
+}    
+
+}
+
+.footer
+{
+    height: 80px;
+}
+
+@mixin megh{
+    height: 100%;
+}

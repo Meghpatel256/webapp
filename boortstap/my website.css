@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap');
+
+        .navbar
+        {
+            font-family: "Red Rose", serif;
+            font-weight: 700;
+            
+        }
+
+       .navbar a
+        {
+            color: black;
+            font-size: 17px;
+
+        }
+
+		.navbar a:hover
+	{
+		color:black ;
+	}
+
+	.box1
+	{
+		
+		width:44%;
+		height: 500px;
+		z-index: 1;
+		position: relative;
+		bottom: 590px;
+		margin-left: 10px;
+		background-color: #2DA884;
+		
+	}
+	@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap');
+	.box1 h1
+	{
+		color: white;
+		font-family: "Red Rose", serif;
+		font-size: 60px;
+		margin-left: 30px;
+		margin-top: 30px;
+		font-weight: 700;
+	}
+
+	.box1 h5
+	{
+		font-size: 15px;
+		margin-left: 30px;
+		color: white;
+	}
+	
+	.b1
+	{
+		background-color: white;
+		color: black;
+		padding: 10px;
+		width: 150px;
+		border-radius: 0%;
+		border: none;
+	}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo of Button Css</title>
+    <style>
+        body{
+            margin: 50px;
+        }
+        .btn-click{
+            border: 2px solid transparent;
+            padding: 10px 20px;
+            background-color: #f0f0f0;
+            color: blue;
+            border-radius: 5px;font-size: 18px;
+            position: relative;
+            z-index: 1;
+        }
+        .btn-click::after{
+            content: '';
+            width: 2px;
+            height: 0%;
+            background-color: red;
+            position: absolute;
+            left: 0;top: 0;transition: 1s;
+        }
+        .btn-click::before{
+            content: '';
+            width: 2px;
+            height: 0%;
+            background-color: red;
+            position: absolute;
+            right: 0;top: 0;transition: 1s;
+        }
+        .btn-click:hover::after{
+            height: 100%;    
+        }
+        .btn-click:hover::before{
+            height: 100%;    
+        }
+        /* .btn-click::before{
+            content: '';
+            width: 0%;height: 100%;
+            background-color: blue;
+            position: absolute;
+            left: 0;top: 0;z-index: -1;
+            transition: 1s;color: #fff;
+        }
+        .btn-click:hover::before{
+            width: 100%;       
+        }
+        .btn-click:hover span{
+            color: #fff;
+        } */
+    </style>
+</head>
+<body>
+
+    <button class="btn-click"><span>Click me</span></button>
+    
+</body>
+</html>

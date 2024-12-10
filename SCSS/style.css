@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+}
+
+.box {
+  background-color: yellow;
+}
+.box h1 {
+  color: red;
+}
+.box:hover {
+  background-color: pink;
+}/*# sourceMappingURL=style.css.map */

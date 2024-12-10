@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carousel practice</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+    <style>
+          .custom-slider .carousel-inner{
+            -border: 1px solid red;height: 550px;
+        }
+        .custom-slider .carousel-inner .carousel-item{
+            height: 100%;
+        }
+        .custom-slider .carousel-inner .carousel-item img{  
+                height: 200px;;
+        }
+    </style>
+
+    
+    <div class="carousel slide costom-slider" id="demo">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://webneel.com/daily/sites/default/files/images/daily/08-2018/1-nature-photography-spring-season-mumtazshamsee.jpg" class="d-block w-100"  alt="">            </div>
+
+                
+
+            <div class="carousel-item">
+                <img src="https://webneel.com/daily/sites/default/files/images/daily/08-2018/1-nature-photography-spring-season-mumtazshamsee.jpg" class="d-block w-100"  alt="">            </div>
+
+            <div class="carousel-item">
+                <img src="images/photo-1579158949482-3e9e0ac69333.avif" class="d-block w-100" alt="">
+            </div>
+          </div>
+             
+          <button type="button" class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon">
+            </span>
+          </button>
+
+                <button type="button" class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon">
+
+            </span>
+          </button>
+        
+    </div>
+    
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

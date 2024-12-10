@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form demo</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body class="d-flex justify-content-center align-items-center ">
+
+    <style>
+        body{
+            background-color: aqua;
+           height: 100vh;
+           
+        }
+
+        .login-box
+        {
+            background-color: rgb(0, 255, 47);
+            width: 350px;
+            height: 600px;
+
+            *
+            {
+                border: 1px solid red;
+            }
+
+        }
+    </style>
+
+    <div class="login-box border rounded-2 p-4 ">
+ 
+        <img class="d-block mx-auto" src="images/logo.png" alt="">
+
+        <h3 class="text-center">login</h3>
+
+        <div class="mb-3">
+            <label class="form-label" for="">username</label>
+            <input class="form-control" placeholder="username" type="text">
+        </div>
+
+        <div class="mt-3">
+
+            <label for="" class="form-label mb-1">password</label>
+            <input type="password" placeholder="password" class="form-control">
+
+        </div>
+        <div class="mb-4">
+            <label for="" class="form-label mb-1">select city</label>
+            <select class="form-select ">
+                <option value="">ambaji</option>
+                <option value="">pavagadh</option>
+                <option value="">bechraji</option>
+                <option value="">chotila</option>
+            </select>
+        </div>
+
+        <div class="mb-2"></div>
+            <label class="d-block">Gender</label>
+            <div class="form-check-inline">
+                <input type="radio" name="gender" value="male" class="form-check-input">
+                <label for="" class="form-check-label">Male</label>
+            </div>
+            <div class="form-check-inline">
+                <input type="radio" name="gender" value="female" class="form-check-input">
+                <label for="" class="form-check-label">Female</label>
+            </div>
+        </div>
+
+        <div>
+            <label for="">Hobby</label>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label for="" class="form-check-label">Reading</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label for="" class="form-check-label">playing</label>
+            </div>
+        </div>
+
+        <div>
+            <label for="">Active</label>
+            <div class="form-check form-switch">
+                <input type="checkbox" class="form-check-input">
+                
+            </div>
+            
+        </div>
+     
+    
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

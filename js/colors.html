@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box
+        {
+            background-color: red;
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box" id="box"></div>
+
+    <button onclick="red()">
+        Red
+    </button>
+
+    <button onclick="blue()">
+        Blue
+    </button>
+
+    <script>
+        function red()
+        {
+            document.getElementById("box").style.backgroundColor = "red"
+        };
+
+        function blue()
+        {
+            document.getElementById("box").style.backgroundColor = "blue"
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo of Remove & Empty</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body class="m-5">
+
+    <button class="btn btn-primary" id="rmv">Remove</button>
+    <button class="btn btn-primary" id="empty">Empty</button>
+    <button class="btn btn-primary" id="show">show</button>
+
+    <div class="box border border-danger p-5 rounded my-3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod at hic, architecto magnam debitis dolores
+        explicabo tempore ut cum, itaque consequatur iure placeat totam et expedita enim eveniet alias commodi quidem
+        maiores facere voluptates? Perferendis quia impedit distinctio ratione, expedita at enim incidunt provident
+        culpa magnam quo mollitia ducimus ea tenetur veritatis in maxime quod beatae officiis totam veniam? Tenetur,
+        omnis! Eius, fugit molestiae accusamus, eum ad voluptate asperiores ipsa voluptatibus rem temporibus provident
+        at, dignissimos tempore perferendis! Omnis, sint minima aperiam quidem deserunt hic laborum, accusamus obcaecati
+        reprehenderit accusantium autem possimus expedita facilis ipsam, neque eos. Nobis, expedita temporibus!
+    </div>
+
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fuga eum saepe neque nihil, atque unde architecto
+        illo adipisci reiciendis exercitationem ex doloribus nam nobis. Hic minus debitis suscipit odio!</h3>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#rmv").click(function () {
+                $(".box").remove();
+            })
+            $("#empty").click(function () {
+                $(".box").empty();
+            })
+
+            $("#show").click(function (){
+                $(".box").show();
+            })
+        })
+    </script>
+</body>
+
+</html>

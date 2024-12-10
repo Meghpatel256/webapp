@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>auto typing</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body style="background-color: black; margin: 200px; ">
+
+
+    <style>
+        .typing
+        {
+            
+            display: inline-block;
+            border: 1px solid red;
+            color: aliceblue;
+        }
+
+        h1
+        {
+            white-space: nowrap;
+            overflow: hidden;
+            animation-name: typing;
+            animation-duration: 2.5s;
+            animation-fill-mode: forwards;
+            animation-timing-function: steps(30);
+            
+
+        }
+
+        @keyframes typing {
+
+            from{width: 0;}
+            to{ width: 100%;}
+            
+        }
+
+
+
+
+
+
+
+    </style>
+    
+    <div class="typing">
+        <h1>india is my country</h1>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
